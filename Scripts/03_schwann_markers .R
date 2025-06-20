@@ -29,7 +29,7 @@ if (!dir.exists(picture_folder)) {
 }
 
 # List of Schwann cell marker genes to visualize
-gene_list <- c("S100B", "GAP43", "NES", "SOX10", "ZEB1", "NGFR")
+gene_list <- c("S100B", "GAP43", "NES", "SOX10", "ZEB1", "NGFR", "MKI67", "PLP1", "DHH", "CDH19", "ERBB3", "SOX2", "IBA1")
 
 # Create feature plots for all genes
 feature_plots <- list()
@@ -61,7 +61,7 @@ dot_plot <- DotPlot(data.merged,
                    dot.scale = 8,
                    scale = TRUE) +
           RotatedAxis() +
-          ggtitle("Schwann Cell Markers Across Annotated Cell Types") +
+          ggtitle("Schwann Cells Markers Across Annotated Cell Types") +
           theme(plot.title = element_text(size = 14, face = "bold"),
                 axis.text.x = element_text(angle = 45, hjust = 1),
                 axis.text.y = element_text(size = 10)) +

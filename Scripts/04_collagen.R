@@ -30,7 +30,7 @@ collagen_genes <- c(
   "COL6A1", "COL6A2", "COL6A3", "COL6A4", "COL6A5", "COL6A6",
   # COL7-28 families
   "COL7A1", "COL8A1", "COL8A2", "COL9A1", "COL9A2", "COL9A3", "COL10A1",
-  "COL11A1", "COL11A2", "COL12A1", "COL13A1", "COL14A1", "COL15A1", "COL16A1", 
+  "COL11A1", "COL11A2", "COL12A1", "COL13A1", "COL14A1", "COL15A1", "COL16A1",
   "COL17A1", "COL18A1", "COL19A1", "COL20A1", "COL21A1", "COL22A1", "COL23A1",
   "COL24A1", "COL25A1", "COL26A1", "COL27A1", "COL28A1"
 )
@@ -40,22 +40,37 @@ available_collagen_genes <- collagen_genes[collagen_genes %in% rownames(data.mer
 print(paste("Found", length(available_collagen_genes), "out of", length(collagen_genes), "collagen genes"))
 
 # Create dotplot for collagen genes across annotated cell types
-dot_plot <- DotPlot(data.merged, 
-                   features = available_collagen_genes,
-                   cols = c("lightgrey", "red"),
-                   dot.scale = 6,
-                   scale = FALSE) +
-           RotatedAxis() +
-           ggtitle("Collagen Genes Expression Across Cell Types") +
-           theme(plot.title = element_text(size = 14, face = "bold"),
-                 axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-                 axis.text.y = element_text(size = 10)) +
-           guides(size = guide_legend(title = "% Expressing",
-                                    override.aes = list(color = "black")),
-                  color = guide_colorbar(title = "Avg Expression"))
+dot_plot <- DotPlot(data.merged,
+  features = available_collagen_genes,
+  cols = c("lightgrey", "red"),
+  dot.scale = 6,
+  scale = FALSE
+) +
+  RotatedAxis() +
+  ggtitle("Collagen Genes Expression Across Cell Types") +
+  theme(
+    plot.title = element_text(size = 14, face = "bold"),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 15),
+    axis.text.y = element_text(size = 16)
+  ) +
+  guides(
+    size = guide_legend(
+      title = "% Expressing",
+      override.aes = list(color = "black"),
+      title.theme = element_text(size = 16),
+      label.theme = element_text(size = 14)
+    ),
+    color = guide_colorbar(
+      title = "Avg Expression",
+      title.theme = element_text(size = 16),
+      label.theme = element_text(size = 14)
+    )
+  )
 
 # Save the dotplot
-ggsave(paste0(picture_folder, "/collagens/collagen_genes_dotplot.pdf"), 
-       dot_plot, width = max(16, length(available_collagen_genes) * 0.4), height = 8)
+ggsave(paste0(picture_folder, "/collagens/collagen_genes_dotplot.pdf"),
+  dot_plot,
+  width = max(16, length(available_collagen_genes) * 0.4), height = 8
+)
 
 print("Collagen gene dotplot saved!")
