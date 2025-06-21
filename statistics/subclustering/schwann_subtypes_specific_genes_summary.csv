@@ -1,55 +1,55 @@
 "Gene","Subtype","Percent_Expressing","Average_Expression","Cell_Count"
-"SOX10","Repair/Regenerative Schwann Cells",61.1,1.15,725
-"SOX10","Invasive/Migratory Tumor Schwann Cells",86.28,1.089,678
-"SOX10","Dedifferentiated Tumor Schwann Cells",76.19,1.215,567
-"SOX10","Myelinating Schwann Cells",86.99,1.199,292
-"SOX10","Immune-Activated Schwann Cells",83.92,0.938,143
-"SOX10","Cancer Stem-like Schwann Cells",46.48,1.413,142
-"SOX10","Quiescent/Resting Schwann Cells",29.87,2.136,77
-"SOX10","Non-Myelinating Schwann Cells",21.74,1.731,46
-"SOX10","Inflammatory Schwann Cells",63.89,0.857,36
-"MKI67","Repair/Regenerative Schwann Cells",0.28,0.572,725
-"MKI67","Invasive/Migratory Tumor Schwann Cells",0.44,0.439,678
-"MKI67","Dedifferentiated Tumor Schwann Cells",0.35,0.681,567
-"MKI67","Myelinating Schwann Cells",0,0,292
-"MKI67","Immune-Activated Schwann Cells",0.7,1.06,143
-"MKI67","Cancer Stem-like Schwann Cells",0.7,0.282,142
-"MKI67","Quiescent/Resting Schwann Cells",0,0,77
-"MKI67","Non-Myelinating Schwann Cells",0,0,46
-"MKI67","Inflammatory Schwann Cells",0,0,36
-"PLP1","Repair/Regenerative Schwann Cells",77.52,1.693,725
-"PLP1","Invasive/Migratory Tumor Schwann Cells",97.94,1.864,678
-"PLP1","Dedifferentiated Tumor Schwann Cells",88.36,1.883,567
-"PLP1","Myelinating Schwann Cells",96.58,2.111,292
-"PLP1","Immune-Activated Schwann Cells",95.1,1.674,143
-"PLP1","Cancer Stem-like Schwann Cells",69.72,2.129,142
-"PLP1","Quiescent/Resting Schwann Cells",55.84,2.691,77
-"PLP1","Non-Myelinating Schwann Cells",86.96,3.001,46
-"PLP1","Inflammatory Schwann Cells",91.67,1.446,36
-"DHH","Repair/Regenerative Schwann Cells",42.07,1.042,725
-"DHH","Invasive/Migratory Tumor Schwann Cells",73.3,0.951,678
-"DHH","Dedifferentiated Tumor Schwann Cells",41.45,0.919,567
-"DHH","Myelinating Schwann Cells",50.68,0.792,292
-"DHH","Immune-Activated Schwann Cells",66.43,0.624,143
-"DHH","Cancer Stem-like Schwann Cells",12.68,1.359,142
-"DHH","Quiescent/Resting Schwann Cells",7.79,2.058,77
-"DHH","Non-Myelinating Schwann Cells",30.43,1.802,46
-"DHH","Inflammatory Schwann Cells",25,0.883,36
-"CDH19","Repair/Regenerative Schwann Cells",99.03,3.105,725
-"CDH19","Invasive/Migratory Tumor Schwann Cells",99.85,3.564,678
-"CDH19","Dedifferentiated Tumor Schwann Cells",99.82,3.446,567
-"CDH19","Myelinating Schwann Cells",100,3.553,292
-"CDH19","Immune-Activated Schwann Cells",99.3,2.783,143
-"CDH19","Cancer Stem-like Schwann Cells",81.69,2.629,142
-"CDH19","Quiescent/Resting Schwann Cells",58.44,2.993,77
-"CDH19","Non-Myelinating Schwann Cells",47.83,2.104,46
-"CDH19","Inflammatory Schwann Cells",100,2.876,36
-"ERBB3","Repair/Regenerative Schwann Cells",32.55,0.954,725
-"ERBB3","Invasive/Migratory Tumor Schwann Cells",60.62,0.799,678
-"ERBB3","Dedifferentiated Tumor Schwann Cells",52.56,0.97,567
-"ERBB3","Myelinating Schwann Cells",63.7,0.839,292
-"ERBB3","Immune-Activated Schwann Cells",88.81,1.023,143
-"ERBB3","Cancer Stem-like Schwann Cells",55.63,1.657,142
-"ERBB3","Quiescent/Resting Schwann Cells",9.09,2.21,77
-"ERBB3","Non-Myelinating Schwann Cells",32.61,1.762,46
-"ERBB3","Inflammatory Schwann Cells",58.33,0.743,36
+"SORCS3","Repair/Regenerative Schwann Cells",63.17,1.57,725
+"SORCS3","Invasive/Migratory Tumor Schwann Cells",13.57,0.803,678
+"SORCS3","Dedifferentiated Tumor Schwann Cells",33.86,1.336,567
+"SORCS3","Myelinating Schwann Cells",8.56,0.821,292
+"SORCS3","Immune-Activated Schwann Cells",0,0,143
+"SORCS3","Cancer Stem-like Schwann Cells",0.7,0.482,142
+"SORCS3","Quiescent/Resting Schwann Cells",0,0,77
+"SORCS3","Non-Myelinating Schwann Cells",0,0,46
+"SORCS3","Inflammatory Schwann Cells",25,1.155,36
+"STON2","Repair/Regenerative Schwann Cells",24.28,0.988,725
+"STON2","Invasive/Migratory Tumor Schwann Cells",77.73,1.117,678
+"STON2","Dedifferentiated Tumor Schwann Cells",7.41,0.677,567
+"STON2","Myelinating Schwann Cells",15.41,0.538,292
+"STON2","Immune-Activated Schwann Cells",27.97,0.439,143
+"STON2","Cancer Stem-like Schwann Cells",15.49,1.101,142
+"STON2","Quiescent/Resting Schwann Cells",5.19,2.162,77
+"STON2","Non-Myelinating Schwann Cells",8.7,2.152,46
+"STON2","Inflammatory Schwann Cells",27.78,0.739,36
+"GPR17","Repair/Regenerative Schwann Cells",1.93,0.745,725
+"GPR17","Invasive/Migratory Tumor Schwann Cells",3.24,0.54,678
+"GPR17","Dedifferentiated Tumor Schwann Cells",26.63,0.99,567
+"GPR17","Myelinating Schwann Cells",27.74,0.822,292
+"GPR17","Immune-Activated Schwann Cells",8.39,0.501,143
+"GPR17","Cancer Stem-like Schwann Cells",3.52,0.986,142
+"GPR17","Quiescent/Resting Schwann Cells",2.6,2.626,77
+"GPR17","Non-Myelinating Schwann Cells",10.87,1.719,46
+"GPR17","Inflammatory Schwann Cells",5.56,0.444,36
+"SOX2","Repair/Regenerative Schwann Cells",0,0,725
+"SOX2","Invasive/Migratory Tumor Schwann Cells",0,0,678
+"SOX2","Dedifferentiated Tumor Schwann Cells",0,0,567
+"SOX2","Myelinating Schwann Cells",0,0,292
+"SOX2","Immune-Activated Schwann Cells",54.55,0.795,143
+"SOX2","Cancer Stem-like Schwann Cells",50,1.808,142
+"SOX2","Quiescent/Resting Schwann Cells",0,0,77
+"SOX2","Non-Myelinating Schwann Cells",2.17,1.417,46
+"SOX2","Inflammatory Schwann Cells",2.78,0.343,36
+"APOD","Repair/Regenerative Schwann Cells",23.45,0.834,725
+"APOD","Invasive/Migratory Tumor Schwann Cells",25.66,0.662,678
+"APOD","Dedifferentiated Tumor Schwann Cells",17.81,0.775,567
+"APOD","Myelinating Schwann Cells",25.34,0.62,292
+"APOD","Immune-Activated Schwann Cells",46.85,0.713,143
+"APOD","Cancer Stem-like Schwann Cells",44.37,2.059,142
+"APOD","Quiescent/Resting Schwann Cells",7.79,2.386,77
+"APOD","Non-Myelinating Schwann Cells",73.91,2.337,46
+"APOD","Inflammatory Schwann Cells",30.56,0.472,36
+"CNTF","Repair/Regenerative Schwann Cells",0,0,725
+"CNTF","Invasive/Migratory Tumor Schwann Cells",0,0,678
+"CNTF","Dedifferentiated Tumor Schwann Cells",0,0,567
+"CNTF","Myelinating Schwann Cells",0,0,292
+"CNTF","Immune-Activated Schwann Cells",0,0,143
+"CNTF","Cancer Stem-like Schwann Cells",0,0,142
+"CNTF","Quiescent/Resting Schwann Cells",0,0,77
+"CNTF","Non-Myelinating Schwann Cells",30.43,2.434,46
+"CNTF","Inflammatory Schwann Cells",0,0,36

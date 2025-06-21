@@ -67,7 +67,7 @@ if (length(available_collagen_genes) > 0) {
   
   }
 # Analyze specific gene list in Schwann cell subtypes
-gene_list <- c("SOX10", "MKI67", "PLP1", "DHH", "CDH19", "ERBB3")
+gene_list <- c("SORCS3", "STON2", "GPR17", "SOX2", "APOD", "CNTF")
 #https://pubmed.ncbi.nlm.nih.gov/15710408/ SORCS3
 #https://pubmed.ncbi.nlm.nih.gov/30518424/ STON2
 #https://pmc.ncbi.nlm.nih.gov/articles/PMC9434083/ GPR17

@@ -59,7 +59,7 @@ print("Generating dotplot for Schwann cell markers across annotated cell types..
 dot_plot <- DotPlot(data.merged, 
                    features = gene_list,
                    cols = c("lightgrey", "red"),
-                   dot.scale = 8,
+                   dot.scale = 7,
                    scale = TRUE) +
           RotatedAxis() +
           ggtitle("Markers Across Annotated Cell Types") +
